@@ -1,5 +1,6 @@
 const ipInput = document.getElementById("textInputWrapper");
 const locateBtn = document.getElementById("ui-btn");
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // Add a click event listener to the button
 locateBtn.addEventListener("click", () => {
