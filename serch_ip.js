@@ -2,6 +2,9 @@ const ipInput = document.getElementById("textInputWrapper");
 const locateBtn = document.getElementById("ui-btn");
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
+
+injectSpeedInsights();
+
 // Add a click event listener to the button
 locateBtn.addEventListener("click", () => {
   // Disable the button and show a loading message
